@@ -15,12 +15,12 @@ window.runDeckSenseiAnalysis = function(deck, allCards, setName) {
         const card = allCards.find(c => c.uid === uid);
         if (!card) continue;
         
-        const baseCode = getBaseCode(card);
+        const baseCode = window.getBaseCode(card);
         if (card.color) colors.add(card.color);
         
         if (baseCode.includes("EVA-1-081") || baseCode.includes("EVA-1-082") || baseCode.includes("NIK-1-043")) hasTriggerExemption = true;
 
-        const cTrigger = cleanTrigger(card.trigger);
+        const cTrigger = window.cleanTrigger(card.trigger);
         if (cTrigger !== "None") {
             triggersCount += qty;
             if (cTrigger === "Special") specialCount += qty;
@@ -29,11 +29,20 @@ window.runDeckSenseiAnalysis = function(deck, allCards, setName) {
             if (cTrigger === "Raid") raidCount += qty;
         }
 
-        let e = getEffEnergy(card), t = getEffType(card);
-        let isDual = isDualCost(baseCode);
+        let e = window.getEffEnergy(card), t = window.getEffType(card);
+        let isDual = window.isDualCost(baseCode);
         let effectText = (card.effect || "").toLowerCase();
 
-        if (card.genEnergy === 2) twoGenCount += qty;
+        // Dynamically detects cards that gain Energy Generation via their effect text
+        let gainsEnergy = effectText.includes("generated energy +") || 
+                          effectText.includes("generated energy becomes") || 
+                          effectText.includes("gain [generated energy]") || 
+                          effectText.includes("gains [generated energy]") ||
+                          (effectText.includes("generated energy") && effectText.includes("+1"));
+
+        if (card.genEnergy === 2 || gainsEnergy) {
+            twoGenCount += qty;
+        }
 
         if (t === "Character") {
             if (e > highestCost) highestCost = e;
