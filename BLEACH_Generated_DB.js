@@ -266,7 +266,22 @@ window.cardDB["BLEACH"] = [
   {"code":"BLC-2-008","tcgplayerId":629793,"name":"Giselle Gewelle (Box Topper Foil)","color":"Yellow","energy":0,"type":"Character","trigger":"[Draw] Draw a card.","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/d001e048-e7f5-4b0d-b632-26aa36b00023/UEPR_BLC-2-008.png","genEnergy":1,"apCost":0,"bp":1500,"rarity":"Common","affinities":"Stern Ritters / Bambies","effect":"[When Played] Draw a card, then place one card from your hand into your sideline.","hasReverseHolo":true},
   {"code":"BLC-2-011","tcgplayerId":632133,"name":"Liltotto Lamperd","color":"Yellow","energy":1,"type":"Character","trigger":"None","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/08e13e4e-1b86-46ee-a36b-9b380bf8557e/UEPR_BLC-2-011.png","genEnergy":1,"apCost":0,"bp":1500,"rarity":"Uncommon","affinities":"Stern Ritters / Bambies","effect":"[When Played] Reveal the top three cards of your deck. Add up to one [Bambies] affinity or \"Bambietta Basterbine\" card among them to your hand. Place the remaining cards into your sideline. If you added a card to your hand, place one card from your hand into your sideline.","hasReverseHolo":true},
   {"code":"BLC-2-012","tcgplayerId":632134,"name":"Sklave Rai","color":"Yellow","energy":4,"type":"Event","trigger":"[Special] Choose one character on your opponent's front line and sideline it.","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/6b3c23ed-40cf-4fdf-8938-0bfd78b17ea9/UEPR_BLC-2-012.png","genEnergy":0,"apCost":0,"bp":0,"rarity":"Uncommon","affinities":"None","effect":"Choose one character on your opponent's front line with BP equal to or less than 1000 multiplied by the combined total number of \"Bambietta Basterbine\" and [Bambies] affinity cards on your field and sideline it.","hasReverseHolo":true},
-  {"code":"UEPR_BLC-1-051","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/4ef67f74-825c-4ee4-b668-5b50e4a3453e/UEPR_BLC-1-051.png","_fetchError":"Not found in TCGPlayer (BLEACH) Sets"},
+{
+    "code": "BLC-1-051",
+    "name": "Rukia Kuchiki",
+    "color": "Purple",
+    "energy": 0,
+    "type": "Character",
+    "trigger": "[Draw] Draw a card",
+    "img": "https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/4ef67f74-825c-4ee4-b668-5b50e4a3453e/UEPR_BLC-1-051.png",
+    "genEnergy": 1,
+    "apCost": 1,
+    "bp": 1500,
+    "rarity": "Common",
+    "affinities": "Thirteen Court Guard Squads",
+    "effect": "[When Sidelined] Place two cards of your deck into your sideline",
+    "hasReverseHolo": false
+  }
   {"code":"BLC-1-056","tcgplayerId":580916,"name":"Tenjiro Kirinji","color":"Purple","energy":1,"type":"Character","trigger":"None","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/7aa4129b-3988-4120-9982-6a8c4afe4145/UEPR_BLC-1-056.png","genEnergy":1,"apCost":0,"bp":1500,"rarity":"Common","affinities":"Squad Zero","effect":"[Activate: Main] (Switch to Resting) (Sideline This Card) Add one purple character card from your sideline to your hand.","hasReverseHolo":true},
   {"code":"BLC-1-054","tcgplayerId":580913,"name":"Mayuri Kurotsuchi","color":"Purple","energy":3,"type":"Character","trigger":"None","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/fa3f88f6-ae8c-4abe-9ec6-42b598a1c482/UEPR_BLC-1-054.png","genEnergy":1,"apCost":0,"bp":3000,"rarity":"Uncommon","affinities":"Thirteen Court Guard Squads","effect":"[When Played] Your opponent places one card from their hand into their sideline.","hasReverseHolo":true},
   {"code":"BLC-2-016","tcgplayerId":629794,"name":"Ichigo Kurosaki  (Box Topper Foil)","color":"Blue","energy":0,"type":"Character","trigger":"[Draw] Draw a card.","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/43254082-b0eb-4129-a75d-9ff6f8084f0e/UEPR_BLC-2-016_p1.png","genEnergy":1,"apCost":0,"bp":1500,"rarity":"Common","affinities":"None","effect":"[When Played] Draw a card, then place one card from your hand into your sideline.","hasReverseHolo":true},
