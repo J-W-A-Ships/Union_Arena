@@ -281,7 +281,7 @@ window.cardDB["BLEACH"] = [
     "affinities": "Thirteen Court Guard Squads",
     "effect": "[When Sidelined] Place two cards of your deck into your sideline",
     "hasReverseHolo": false
-  }
+  },
   {"code":"BLC-1-056","tcgplayerId":580916,"name":"Tenjiro Kirinji","color":"Purple","energy":1,"type":"Character","trigger":"None","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/7aa4129b-3988-4120-9982-6a8c4afe4145/UEPR_BLC-1-056.png","genEnergy":1,"apCost":0,"bp":1500,"rarity":"Common","affinities":"Squad Zero","effect":"[Activate: Main] (Switch to Resting) (Sideline This Card) Add one purple character card from your sideline to your hand.","hasReverseHolo":true},
   {"code":"BLC-1-054","tcgplayerId":580913,"name":"Mayuri Kurotsuchi","color":"Purple","energy":3,"type":"Character","trigger":"None","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/fa3f88f6-ae8c-4abe-9ec6-42b598a1c482/UEPR_BLC-1-054.png","genEnergy":1,"apCost":0,"bp":3000,"rarity":"Uncommon","affinities":"Thirteen Court Guard Squads","effect":"[When Played] Your opponent places one card from their hand into their sideline.","hasReverseHolo":true},
   {"code":"BLC-2-016","tcgplayerId":629794,"name":"Ichigo Kurosaki  (Box Topper Foil)","color":"Blue","energy":0,"type":"Character","trigger":"[Draw] Draw a card.","img":"https://images.squarespace-cdn.com/content/5e3b1164feb39b444b58f15b/43254082-b0eb-4129-a75d-9ff6f8084f0e/UEPR_BLC-2-016_p1.png","genEnergy":1,"apCost":0,"bp":1500,"rarity":"Common","affinities":"None","effect":"[When Played] Draw a card, then place one card from your hand into your sideline.","hasReverseHolo":true},
